@@ -1,4 +1,5 @@
 export interface TinymceOptions {
+    branding?: boolean;
     plugins?: Array<string>;
     skin_url?: string;
     selector?: string;
